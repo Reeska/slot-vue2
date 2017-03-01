@@ -1,23 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
-    <book :book="book"></book>
+    <books></books>
   </div>
 </template>
 
 <script>
-import Book from './components/book';
-import BookService from './services/book-service';
+import Books from './components/books';
 
 export default {
   name: 'app',
-  data () {
-    return {
-      book: BookService.getBook()
-    };
-  },
   components: {
-    Book
+    Books
   }
 };
 </script>
@@ -30,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
