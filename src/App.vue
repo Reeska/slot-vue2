@@ -2,16 +2,18 @@
   <div id="app">
     <img src="./assets/logo.png" />
     <books></books>
+    <basket></basket>
   </div>
 </template>
 
 <script>
 import Books from './components/books';
+import Basket from './components/basket';
 
 export default {
   name: 'app',
   components: {
-    Books
+    Books, Basket
   }
 };
 </script>

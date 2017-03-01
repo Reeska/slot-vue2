@@ -22,7 +22,7 @@
   import BookService from '../services/book-service';
   import Book from './book';
 
-  export default{
+  export default {
     name: 'books',
     data: function () {
       return {
