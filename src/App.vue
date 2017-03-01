@@ -1,13 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png" />
+    <book :book="book"></book>
   </div>
 </template>
 
 <script>
+import Book from './components/book';
+import BookService from './services/book-service';
+
 export default {
-  name: 'app'
-}
+  name: 'app',
+  data () {
+    return {
+      book: BookService.getBook()
+    };
+  },
+  components: {
+    Book
+  }
+};
 </script>
 
 <style>
