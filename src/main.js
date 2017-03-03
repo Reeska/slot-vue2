@@ -2,6 +2,20 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import App from './App';
+import VueRouter from 'vue-router';
+import Basket from './components/basket.vue';
+import Books from './components/books.vue';
+
+Vue.use(VueRouter);
+
+const routes = [
+  { path: '/books', component: Books },
+  { path: '/basket', component: Basket }
+];
+
+const router = new VueRouter({
+  routes // short for routes: routes
+});
 
 Vue.config.productionTip = false;
 
@@ -11,5 +25,6 @@ Vue.$bus = new Vue();
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App }
+  components: { App },
+  router: router
 });

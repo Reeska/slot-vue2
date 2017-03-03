@@ -1,20 +1,23 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
-    <books></books>
-    <basket></basket>
+
+    <h1>Henry Poitier</h1>
+
+    <div>
+      <router-link to="/books">Books</router-link>
+      <router-link to="/basket">Basket</router-link>
+    </div>
+
+    <!-- route outlet -->
+    <!-- component matched by the route will render here -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Books from './components/books';
-import Basket from './components/basket';
-
 export default {
-  name: 'app',
-  components: {
-    Books, Basket
-  }
+  name: 'app'
 };
 </script>
 
