@@ -44,6 +44,11 @@
           </tfoot>
         </table>
       </div>
+      <div>
+        <router-link to="/order" tag="button" class="btn btn-success">
+          Order
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
