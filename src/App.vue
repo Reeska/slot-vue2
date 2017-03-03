@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
+    <h1>Henry Poitier</h1>
     <books></books>
   </div>
 </template>
