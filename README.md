@@ -1,8 +1,32 @@
-# slot-vue2
+# Hands-On Vue.js
 
-Première étape construire votre premier composant représentant un livre.
+- Benjamin Szatny [@MasterBnJ](https://twitter.com/MasterBnJ)
+- Ludovic Ladeu
+- Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
 
-## Build Setup
+## Synopsis
+
+L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
+développant une application de commande de livre intitulé **Henri Potier**.
+
+Cet exercice est découpé en 5 étapes afin d'introduire au fur et à mesure les concepts 
+de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
+
+## Etape 2
+
+Maintenant que nous avons un composant Book, il va nous falloir récupérer la vraie liste des livres que nous avons en stock et la présenter aux clients.
+
+Pour ce faire il va falloir créer un composant `Books` qui affichera la liste des livres disponible depuis cet endpoint :
+
+> http://henri-potier.xebia.fr/books
+
+Pour les plus impatients, vous trouverez la solution sur la [branche step-2](https://github.com/Reeska/slot-vue2/tree/step-2).
+
+## Installation
+
+### Pérequis
+
+Attention, pour fonctionner Vue.js requiert au moins **node v5**.
 
 ``` bash
 # install dependencies
@@ -10,21 +34,6 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
