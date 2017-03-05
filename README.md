@@ -57,13 +57,15 @@ Cette branche met à disposition un service `BookService` qui contient une uniqu
 
 * Créer le répertoire *components* qui contiendra vos composants
 * Dans ce répertoire, créer le fichier *book.vue* 
-* Ce fichier respecter la structure d'un fichier Vue avec une balise template, style, et script
-* Dans la création de votre composant dans la partie **script**, déclarer une propriété `book` qui en sera l'input : `props: ['book']`
-* La propriété book contiendra les informations du livre, dans la partie **template**, il est alors possible d'afficher le titre : `{{ book.title }}`
+* Ce fichier doit respecter la structure d'un fichier Vue avec une balise template, style, et script
+* Dans la création de votre composant dans la partie **script**, déclarer une propriété `book` : `props: ['book']`
+* La propriété book contiendra les informations du livre transmis par le composant parent, dans la partie **template**, il est alors possible d'afficher le titre : `{{ book.title }}`
 
 #### Utilisation du composant Book
 
-* Dans le composant App déclarer le composant Book que vous allez utilisé, pour ce faire dans la partie **script** : 
+Dans le composant App :
+
+* Déclarer le composant Book que vous allez utilisé, pour ce faire dans la partie **script** : 
   * importer le composant Book : `import Book from './components/book';`
   * ajouter au composant App : `components: { Book }`
 * Pour récupérer les informations du livre, importer le service `book-service` : `import BookService from './services/book-service';`
@@ -79,4 +81,4 @@ Cette branche met à disposition un service `BookService` qui contient une uniqu
 
 A vous de jouer !
 
-Pour les plus impatients, vous trouverez la solution sur la [branche step-1](https://github.com/Reeska/slot-vue2/tree/step-1).
+Si vous avez terminé, ou pour les plus impatients, vous trouverez la suite et solution sur la [branche step-1](https://github.com/Reeska/slot-vue2/tree/step-1).
