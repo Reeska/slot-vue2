@@ -34,8 +34,21 @@ de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
 
 Maintenant que nous avons un composant Book, il va nous falloir récupérer la vraie liste des livres que nous avons en stock et la présenter aux clients.
 
-Pour ce faire il va falloir créer un composant `Books` qui affichera la liste des livres disponible depuis cet endpoint :
+Il va falloir créer un composant `Books` qui affichera la liste des livres disponible depuis cet endpoint :
 
 > http://henri-potier.xebia.fr/books
 
-Pour les plus impatients, vous trouverez la solution sur la [branche step-2](https://github.com/Reeska/slot-vue2/tree/step-2).
+Pour ce faire :
+ 
+* Ajouter une opération `getBooks` dans le `book-service` qui va utiliser la fonction HTML5 `window.fetch` pour récupérer les données en retournant une Promesse :
+```
+  window.fetch('url').then(data => data.json())
+```
+
+* Dans le composant Books
+  * Ajouter une propriété `books` initialisée avec un tableau vide 
+  * Importer le service `book-service`
+  * Ajouter la fonction `created` dans laquelle vous aller appeler la fonction `getBooks` et valoriser la propriété `books` à la résolution de la Promesse
+  * Utiliser `v-for` pour afficher la liste des livres
+
+Si vous avez terminé, ou pour les plus impatients, vous trouverez la suite et solution sur la [branche step-2](https://github.com/Reeska/slot-vue2/tree/step-2).
