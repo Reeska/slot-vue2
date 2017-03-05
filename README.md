@@ -39,7 +39,7 @@ Pour ça utiliser la méthode *déclarative*.
 
 Créer un composant `Checkout` qui aura pour but d'afficher les informations de livraison précédemment saisies.
 
-Pour les plus impatients, vous trouverez la solution sur la [branche step-4](https://github.com/Reeska/slot-vue2/tree/step-4).
+Pour les plus impatients, vous trouverez la solution sur la [branche step-5](https://github.com/Reeska/slot-vue2/tree/step-5).
 
 ## Installation
 
