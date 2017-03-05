@@ -6,6 +6,22 @@
 - Ludovic Ladeu
 - Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
 
+## Installation
+
+### Prérequis
+
+Attention, pour fonctionner Vue.js requière au moins **node v5**.
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
+
+Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
+
 ## Synopsis
 
 L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
@@ -37,7 +53,7 @@ Cette branche met à disposition un service `BookService` qui contient une uniqu
 
 ### Instructions
 
-__ Création du composant Book __
+#### Création du composant Book
 
 * Créer le répertoire *components* qui contiendra vos composants
 * Dans ce répertoire, créer le fichier *book.vue* 
@@ -45,7 +61,7 @@ __ Création du composant Book __
 * Dans la création de votre composant dans la partie **script**, déclarer une propriété `book` qui en sera l'input : `props: ['book']`
 * La propriété book contiendra les informations du livre, dans la partie **template**, il est alors possible d'afficher le titre : `{{ book.title }}`
 
-__ Utilisation du composant Book __
+#### Utilisation du composant Book
 
 * Dans le composant App déclarer le composant Book que vous allez utilisé, pour ce faire dans la partie **script** : 
   * importer le composant Book : `import Book from './components/book';`
@@ -64,19 +80,3 @@ __ Utilisation du composant Book __
 A vous de jouer !
 
 Pour les plus impatients, vous trouverez la solution sur la [branche step-1](https://github.com/Reeska/slot-vue2/tree/step-1).
-
-## Installation
-
-### Prérequis
-
-Attention, pour fonctionner Vue.js requière au moins **node v5**.
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
-
-Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
