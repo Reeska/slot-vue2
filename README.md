@@ -6,19 +6,6 @@
 - Ludovic Ladeu
 - Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
 
-## Synopsis
-
-L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
-développant une application de commande de livre intitulé **Henri Potier**.
-
-Cet exercice est découpé en 5 étapes afin d'introduire au fur et à mesure les concepts 
-de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
-
-## Pour aller plus loin
-
-- Documentation sur VueRouter : https://router.vuejs.org/en/essentials/getting-started.html
-- Plusieurs ressources autour de Vue.js : https://github.com/vuejs/awesome-vue
-
 ## Installation
 
 ### Prérequis
@@ -34,3 +21,16 @@ npm run dev
 ```
 
 Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
+
+## Synopsis
+
+L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
+développant une application de commande de livre intitulé **Henri Potier**.
+
+Cet exercice est découpé en 5 étapes afin d'introduire au fur et à mesure les concepts 
+de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
+
+## Pour aller plus loin
+
+- Documentation sur VueRouter : https://router.vuejs.org/en/essentials/getting-started.html
+- Plusieurs ressources autour de Vue.js : https://github.com/vuejs/awesome-vue
