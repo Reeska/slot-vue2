@@ -1,5 +1,7 @@
 # Hands-On Vue.js
 
+> [Accès à la présentation](https://docs.google.com/a/xebia.fr/presentation/d/1z3OnbRF8KcZCaJf7638-4XF4_H853x9aqcfIVGQJXlE/edit?usp=sharing)
+
 - Benjamin Szatny [@MasterBnJ](https://twitter.com/MasterBnJ)
 - Ludovic Ladeu
 - Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
@@ -23,7 +25,7 @@ Pour les plus impatients, vous trouverez la solution sur la [branche step-4](htt
 
 ## Installation
 
-### Pérequis
+### Prérequis
 
 Attention, pour fonctionner Vue.js requiert au moins **node v5**.
 
