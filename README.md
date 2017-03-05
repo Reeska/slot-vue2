@@ -6,6 +6,22 @@
 - Ludovic Ladeu
 - Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
 
+## Installation
+
+### Prérequis
+
+Attention, pour fonctionner Vue.js requiert au moins **node v5**.
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
+
+Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
+
 ## Synopsis
 
 L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
@@ -53,19 +69,3 @@ if (rawCommandLines) {
   commandLines = JSON.parse(rawCommandLines);
 }
 ```
-
-## Installation
-
-### Prérequis
-
-Attention, pour fonctionner Vue.js requiert au moins **node v5**.
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
-
-Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
