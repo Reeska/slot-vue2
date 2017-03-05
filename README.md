@@ -6,6 +6,22 @@
 - Ludovic Ladeu
 - Thomas Champion [@ReeskaFr](https://twitter.com/ReeskaFr)
 
+## Installation
+
+### Prérequis
+
+Attention, pour fonctionner Vue.js requiert au moins **node v5**.
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
+
+Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
+
 ## Synopsis
 
 L'objectif de ce Hands-On est de mettre en pratique vos connaissances sur Vue.js en 
@@ -40,19 +56,3 @@ Pour ça utiliser la méthode *déclarative*.
 Créer un composant `Checkout` qui aura pour but d'afficher les informations de livraison précédemment saisies.
 
 Pour les plus impatients, vous trouverez la solution sur la [branche step-5](https://github.com/Reeska/slot-vue2/tree/step-5).
-
-## Installation
-
-### Prérequis
-
-Attention, pour fonctionner Vue.js requiert au moins **node v5**.
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
-
-Plus d'informations sur la très complète [documentation officielle](https://vuejs.org/v2/guide/).
