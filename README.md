@@ -21,7 +21,7 @@ de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
 
 ## Installation
 
-### Pérequis
+### Prérequis
 
 Attention, pour fonctionner Vue.js requiert au moins **node v5**.
 
