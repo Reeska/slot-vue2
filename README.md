@@ -37,4 +37,4 @@ Nous proposons donc d'en faire 2 pages séparées.
 
 Pour ce faire utiliser `VueRouter` et définir une route par composant dans le fichier `main.js`.
 
-Pour les plus impatients, vous trouverez la solution sur la [branche step-4](https://github.com/Reeska/slot-vue2/tree/step-4).
+Si vous avez terminé, ou pour les plus impatients, vous trouverez la suite et solution sur la [branche step-4](https://github.com/Reeska/slot-vue2/tree/step-4).
