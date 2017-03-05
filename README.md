@@ -35,15 +35,15 @@ de Vue.js, et ainsi de construire l'application qui détrônera Amazon.
 Afin de permettre aux utilisateurs d'acheter leurs précieux livres il va falloir ajouter un panier.
 
 Pour ce faire créer un composant `Basket` qui aura pour but de :
-- stocker les livres ajouter par les utilisateurs, 
+- stocker les livres ajoutés par les utilisateurs, 
 - modifier la quantité pour chaque livre, 
-- supprimer un livre du panier. 
-- calculer et rafraîchir le total à chaque modification
+- supprimer un livre du panier,
+- calculer et rafraîchir le total à chaque modification.
 
 Pour réaliser cette fonctionnalité, il pourrait être intéressant de créer un service `basket-service` qui 
 servira à gérer ces différents cas. Il faudra aussi ajouter un bouton "Ajouter au panier" dans le composant `Book`.
 
-Pour les plus impatients, vous trouverez la solution sur la [branche step-3](https://github.com/Reeska/slot-vue2/tree/step-3).
+Si vous avez terminé, ou pour les plus impatients, vous trouverez la suite et solution sur la [branche step-3](https://github.com/Reeska/slot-vue2/tree/step-3).
 
 ### Tips
 
