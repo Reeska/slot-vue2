@@ -46,7 +46,7 @@ Créer un composant `Order` qui contiendra un formulaire avec les champs suivant
 Ainsi qu'un bouton **Confirm** qui aura pour action de rediriger vers la page de confirmation en lui transmettant les informations de livraison.
 Pour la redirection utiliser la méthode *programmatique*.
 
-Nous souhaitons aussi vérifier que le champ **Numéro de rue** est bien un entier avant qu'activer le bouton **Confirm**.
+Nous souhaitons aussi vérifier que le champ **Numéro de rue** est bien un entier avant d'activer le bouton **Confirm**.
 
 En fin, ajouter un bouton **Order** sur le composant `Basket` qui redirigera vers ce nouveau composant `Order`.
 Pour ça utiliser la méthode *déclarative*.
